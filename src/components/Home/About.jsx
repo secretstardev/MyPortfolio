@@ -12,32 +12,32 @@ import { SiLeetcode } from "react-icons/si";
 
 
 const About = () => {
-    return (
-        <Container fluid className="home-about-section" id="about">
-          <Container>
-            <Row>
-              <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
-                </h1>
-                <p className="home-about-body">
-                 Hi, my name is <span className="yellow"> Dmytro Perstnov </span>
-                 and I'm from <span className="yellow"> Odesa, Ukraine.</span>
-                <br />
-                <br />
-                I graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full Stack Mobile App developer</b>,  
-                  I have developed many iOS, Android and Cross-platform applications using <b className="yellow">Swift, Java, Flutter, React Native, Kotlin, Objective-C</b> and so on.
-                  <br />
-                  <br />I am also proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python.
-                  <br />
-                  <br />
-                  {/* I have a passion for working
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              Hi, my name is <span className="yellow"> Matthew Francisco </span>
+              and I'm from <span className="yellow"> Philippines.</span>
+              <br />
+              <br />
+              I graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+              <br />
+              <br />
+              As a
+              <b className="yellow"> Full Stack Mobile App developer</b>,
+              I have developed many iOS, Android and Cross-platform applications using <b className="yellow">Swift, Java, Flutter, React Native, Kotlin, Objective-C</b> and so on.
+              <br />
+              <br />I am also proficient in
+              <b className="yellow"> Javascript, </b>
+              as well as have knowledge in programming languages such as C, Java, Python.
+              <br />
+              <br />
+              {/* I have a passion for working
                   with <b className="yellow">Node.js, MongoDB,</b> and
                   <i>
                     <b className="yellow">
@@ -51,23 +51,23 @@ const About = () => {
                   </i>
                   <br />
                   <br /> */}
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Mobile Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
-                  
-                </p>
-              </Col>
-              <Col md={4} className="myAvtar">
-                <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
-                </Tilt>
-              </Col>
-            </Row>
-            {/* <Row>
+              I am also interested in building new
+              <i>
+                <b className="yellow"> Mobile Technologies and Products, </b>
+                as well as exploring areas related to
+                <b className="yellow"> Artificial Intelligence.</b>
+              </i>
+              <br />
+
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={LaptopImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        {/* <Row>
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
                 <p>
@@ -121,10 +121,10 @@ const About = () => {
                 </ul>
               </Col>
             </Row> */}
-          </Container>
-        </Container>
-      );
-    
+      </Container>
+    </Container>
+  );
+
 }
 
 export default About
