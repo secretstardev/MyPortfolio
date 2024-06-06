@@ -25,7 +25,7 @@ const About = () => {
               and I'm from <span className="yellow"> Ukraine.</span>
               <br />
               <br />
-              I graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+              I graduated with a Bachelor's degree in Computer Science and Engineering in 2016.
               <br />
               <br />
               As a
