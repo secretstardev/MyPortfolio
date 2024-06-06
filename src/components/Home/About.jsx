@@ -21,8 +21,8 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is <span className="yellow"> Matthew Francisco </span>
-              and I'm from <span className="yellow"> Philippines.</span>
+              Hi, my name is <span className="yellow"> Dmytro Ivantsiv </span>
+              and I'm from <span className="yellow"> Ukraine.</span>
               <br />
               <br />
               I graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
